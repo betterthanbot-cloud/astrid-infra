@@ -6,3 +6,7 @@ include {
 terraform {
   source = "${get_parent_terragrunt_dir()}/..//terraform/products/01-vpc"
 }
+
+inputs = {
+  vpc_id = "library"
+}

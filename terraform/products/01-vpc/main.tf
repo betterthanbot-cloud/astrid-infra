@@ -12,7 +12,6 @@ provider "aws" {
   region = "ap-southeast-1"
 }
 
-## Tags
 locals {
   datetime_utc = timestamp()
   datetime_sgt = timeadd(local.datetime_utc, "8h")

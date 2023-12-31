@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 # [Unreleased]
+## [0.1.0] - 2024-01-01
+### Changed
+- Added VPC
+- Added EKS
 
 # [Released]
 ## [0.0.9] - 2023-12-31
@@ -25,7 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.7] - 2023-08-12
 ### Added
-- added s3, iam, vpc, r53, waf modeules
+- added s3, iam, vpc, r53, waf modules
 - edits to terragrunt and terraform products
 - added encrypted backend
 
